@@ -1,0 +1,38 @@
+#new_blog_container{
+  width:80%;
+  margin-left: 10%;
+  position: relative;
+  top:40px;
+}
+
+#new_blog_container h1{
+  font-weight: 100;
+  letter-spacing: 2px;
+  opacity: 0.3;
+}
+
+form{
+  position: relative;
+  top:20px;
+}
+
+.new_inps{
+  border:none;
+  outline:none;
+  border:1px solid #9A8F7C;
+  width:calc(100% - 24px);
+  padding:10px;
+  resize: none;
+  font-size: 20px;
+  font-family:'IBM Plex Mono';
+  margin: 10px 0px 10px 0px;
+}
+
+#submit{
+  padding:10px;
+  background: #000;
+  border:none;
+  color:#fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+}

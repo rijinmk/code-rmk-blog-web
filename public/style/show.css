@@ -1,0 +1,41 @@
+#post_container{
+  width:80%;
+  margin-left: 10%;
+  position: relative;
+  top:40px;
+  display:flex;
+  flex-direction: row; 
+}
+
+.left{
+  width:30%;
+}
+
+.left img{
+  width: 100%;
+}
+
+.right{
+  width:70%;
+  padding:0px 0px 30px 30px;
+}
+
+.right h2{
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.right p{
+  opacity: 0.4;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.right img{
+  width:100%;
+  position: relative;
+  top:20px;
+}
+
+
+

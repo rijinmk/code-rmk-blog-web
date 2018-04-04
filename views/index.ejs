@@ -1,0 +1,16 @@
+<% include includes/header %>
+
+    <div id="blogs_container">
+      <% for(var i in data){ %>
+        <div id="<%= i %>" class="blogs">
+          <div style="background-image: url('<%= data[i].dp %>');" class="blog_image"></div>
+          <div class="blog_info">
+            <div class="blog_title"><%= data[i].title %></div>
+            <div class="blog_content"><%= data[i].blog.slice(0, 150) %>...</div>
+            <a href="/blogs/<%= data[i]._id %>"><button class="read_more">Read More</button></a>
+            <a href=""><button class="delete">Delete</button></a>
+          </div>
+        </div>
+      <% } %>
+  
+<% include includes/footer %>

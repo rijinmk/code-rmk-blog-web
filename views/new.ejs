@@ -1,0 +1,12 @@
+<% include includes/header %>
+  <div id="new_blog_container">
+    <h1>ADD NEW BLOG</h1>
+    <form action="/blogs" method="post">
+      <input class="new_inps" name="title" type="text" placeholder="Title">
+      <input class="new_inps" name="dp" type="text" placeholder="Display Picture">
+      <input class="new_inps" name="cimg" type="text" placeholder="Custom Image">
+      <textarea class="new_inps" name="blog" rows="8" placeholder="Blog" cols="80"></textarea>
+      <input type="submit" id="submit" value="SUBMIT">
+    </form>
+  </div>
+<% include includes/footer %>
