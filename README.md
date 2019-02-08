@@ -1,2 +1,2 @@
 # code-rmk-blog-web
-Just a simply blog made for practice
+Just a simple blog made for practice
